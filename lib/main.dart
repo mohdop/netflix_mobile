@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:netflix_mobile/Accueil.dart';
 import 'package:netflix_mobile/Connexion.dart';
 import 'package:netflix_mobile/Details.dart';
-import 'Connexion.dart';
 import 'Launch.dart';
 
 void main() {
@@ -23,10 +22,8 @@ class Home extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      child: Scaffold(
-        body: Details(),
-      ),
+    return  Scaffold(
+      body:  launch(),
     );
   }
 }

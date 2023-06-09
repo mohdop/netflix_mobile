@@ -34,7 +34,7 @@ class _AccueilState extends State<Accueil> {
                 ),
                 Padding(
                   padding:
-                      const EdgeInsets.only(top: 400, left: 150, right: 150),
+                       EdgeInsets.only(top: 400, left: 150, right: 150),
                   child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.white,
@@ -60,7 +60,7 @@ class _AccueilState extends State<Accueil> {
                 ),Row(
                   children: [
                      Padding(
-                       padding: const EdgeInsets.only(top: 80),
+                       padding:  EdgeInsets.only(top: 80),
                        child: Image.asset(
                                        "assets/images/logo-2.png",
                                        scale: 10,

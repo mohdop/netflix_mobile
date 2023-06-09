@@ -18,7 +18,7 @@ class _LoginState extends State<Login> {
           child: Column(
             children: [
               Padding(
-                padding: const EdgeInsets.only(top: 195),
+                padding:  EdgeInsets.only(top: 195),
                 child: Text(
                   "Se connecter",
                   style: TextStyle(
@@ -38,7 +38,7 @@ class _LoginState extends State<Login> {
                           BorderRadius.circular(10.0), // Set the border radius
                     ),
                     filled: true,
-                    fillColor: const Color.fromARGB(255, 89, 89, 89),
+                    fillColor:  Color.fromARGB(255, 89, 89, 89),
                   ),
                 ),
               ),
@@ -53,7 +53,7 @@ class _LoginState extends State<Login> {
                           BorderRadius.circular(10.0), // Set the border radius
                     ),
                     filled: true,
-                    fillColor: const Color.fromARGB(255, 89, 89, 89),
+                    fillColor:  Color.fromARGB(255, 89, 89, 89),
                   ),
                 ),
               ),
@@ -105,7 +105,7 @@ class _LoginState extends State<Login> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 75),
+                padding:  EdgeInsets.only(left: 75),
                 child: Row(
                   children: [
                     Text(
@@ -129,7 +129,7 @@ class _LoginState extends State<Login> {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 55),
+                padding:  EdgeInsets.only(left: 55),
                 child: Row(children: [
                   Center(
                     child: Text(
@@ -149,7 +149,7 @@ class _LoginState extends State<Login> {
                     style: TextStyle(color: Colors.blue),
                   )),
               Padding(
-                padding: const EdgeInsets.only(left: 155.0),
+                padding:  EdgeInsets.only(left: 155.0),
                 child: Row(
                   children: [
                     Icon(
@@ -157,7 +157,7 @@ class _LoginState extends State<Login> {
                       color: Colors.white,
                     ),
                     Padding(
-                      padding: const EdgeInsets.all(8),
+                      padding:  EdgeInsets.all(8),
                       child: Icon(
                         FontAwesomeIcons.instagram,
                         color: Colors.white,
@@ -173,12 +173,12 @@ class _LoginState extends State<Login> {
                 style: TextStyle(color: Colors.white),
               )),
               Padding(
-                padding: const EdgeInsets.all(25.0),
+                padding:  EdgeInsets.all(25.0),
                 child: Container(
                   decoration:
                       BoxDecoration(border: Border.all(color: Colors.white)),
                   child: Padding(
-                    padding: const EdgeInsets.all(8.0),
+                    padding:  EdgeInsets.all(8.0),
                     child: Text(
                       "Code de service",
                       style: TextStyle(

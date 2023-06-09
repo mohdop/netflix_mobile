@@ -37,7 +37,7 @@ Widget caroussel(double height) {
 }
 
 Widget carousselCasting(double height) {
-  return Container(
+  return  Container(
     height: height,
     child: SingleChildScrollView(
         scrollDirection: Axis.horizontal,
@@ -57,8 +57,8 @@ Widget naviguer() {
      type: BottomNavigationBarType.fixed,
     fixedColor: Colors.grey,
     unselectedItemColor: Colors.grey,
-    backgroundColor: Color.fromARGB(255, 30, 30, 30),
-    items: const <BottomNavigationBarItem>[
+    backgroundColor:  Color.fromARGB(255, 30, 30, 30),
+    items:  <BottomNavigationBarItem>[
       BottomNavigationBarItem(
         
         icon: Icon(

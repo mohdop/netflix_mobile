@@ -58,7 +58,7 @@ class _DetailsState extends State<Details> {
                       onPressed: () {
                         Navigator.pushNamed(context, "");
                       },
-                      child: const Row(
+                      child:  Row(
                         children: [
                           Icon(
                             Icons.play_arrow_rounded,
@@ -76,7 +76,7 @@ class _DetailsState extends State<Details> {
                 ),
                 Padding(
                   padding:
-                      const EdgeInsets.only(top: 500, left: 150, right: 121),
+                       EdgeInsets.only(top: 500, left: 150, right: 121),
                   child: ElevatedButton(
                       style: ElevatedButton.styleFrom(
                         backgroundColor: Colors.white,
@@ -84,7 +84,7 @@ class _DetailsState extends State<Details> {
                       onPressed: () {
                         Navigator.pushNamed(context, "");
                       },
-                      child:const Row(
+                      child: Row(
                         children:  [
           
                           Text(
@@ -101,12 +101,12 @@ class _DetailsState extends State<Details> {
               ]),
               
               Padding(
-                padding: const EdgeInsets.only(right:315),
+                padding:  EdgeInsets.only(right:315),
                 child: Text("Synopsis",style: TextStyle(color: Colors.white,fontWeight: FontWeight.bold,fontSize: 22),),
               ),
               Text(
                 "Nearly five millennia after being given the superpowers of the ancient gods and imprisoned, Black Adam (Johnson) is released from his earthly tomb, Ready to unleash his own idea of justice on the modern world.",
-                style: TextStyle(color: const Color.fromARGB(255, 201, 201, 201),fontSize: 20,),
+                style: TextStyle(color:  Color.fromARGB(255, 201, 201, 201),fontSize: 20,),
                 ),
               carousselTitle("Casting", 335),
               carousselCasting(300),
